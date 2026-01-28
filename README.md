@@ -1,10 +1,7 @@
 # meishi_tenkey
 
-RP2040ベースの5x4テンキーキーボード
+XIAO RP2040 を使用した 5x4 テンキーキーボード
 
-## 特徴
-
-- RP2040マイコン
 - QMKファームウェア対応
 - 2レイヤー（テンキー / ナビゲーション）
 
@@ -34,11 +31,26 @@ RP2040ベースの5x4テンキーキーボード
 
 ## ファームウェア
 
-`qmk_firmware/meishi_tenkey_default.uf2` をRP2040のブートローダーにドロップ
+### 書き込み方法
 
-## KiCad環境
+1. XIAO RP2040 の B ボタンを押しながら R ボタンを押す
+2. PC にリムーバブルドライブとしてマウントされる
+3. `qmk_firmware/meishi_tenkey_default.uf2` をドライブにコピー
 
-### プラグイン
+### キーマップのカスタマイズ
+
+レイアウトを変更したい場合は、Linux または WSL 上に QMK 環境を構築し、以下の手順で行ってください。
+
+1. `./qmk_firmware/keyboards/meishi_tenkey` を QMK 本体の `keyboards/` 以下にコピー
+2. `keymaps/default/keymap.c` を編集
+3. `qmk compile -kb meishi_tenkey -km default` でビルド
+4. 出力された `.uf2` ファイルを XIAO RP2040 に書き込み
+
+## PCB設計環境
+
+PCBを編集する場合の参考情報です。
+
+### KiCadプラグイン
 
 - [marbastlib](https://github.com/ebastler/marbastlib)
 - [Keyboard footprints placer](https://github.com/adamws/kicad-kbplacer)
@@ -54,6 +66,6 @@ RP2040ベースの5x4テンキーキーボード
 
 ## ライセンス
 
-現在は GPL-2.0 でライセンスされています。
+GPL-2.0
 
 ハードウェア部分（KiCad）については、将来的に CERN-OHL-S へ変更する可能性があります。
