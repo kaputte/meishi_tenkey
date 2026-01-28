@@ -1,0 +1,7 @@
+# KiCad cache and backup files
+fp-info-cache
+*.kicad_prl
+*-backups/
+
+# Log files
+*.log
