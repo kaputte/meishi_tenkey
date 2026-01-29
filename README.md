@@ -64,10 +64,6 @@ PCBを編集する場合の参考情報です。
 
 - [Xiao_Kicad_Library](https://github.com/Seeed-Studio/Xiao_Kicad_Library) - シンボル / フットプリント
 
-### PCBエディタ設定
-
-- グリッド: 2.38125mm（キーボード用）
-
 ## ライセンス
 
 GPL-2.0
