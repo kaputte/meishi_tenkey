@@ -2,6 +2,8 @@
 
 <img src="images/front.jpg" width="400"> <img src="images/back.jpg" width="400">
 
+<img src="images/schematic.png" width="400"> <img src="images/PCB.png" width="400">
+
 XIAO RP2040 を使用した 5x4 テンキーキーボード
 
 - QMKファームウェア対応
