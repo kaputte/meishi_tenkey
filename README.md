@@ -1,5 +1,8 @@
 # meishi_tenkey
 
+![表面](images/front.jpg)
+![裏面](images/back.jpg)
+
 XIAO RP2040 を使用した 5x4 テンキーキーボード
 
 - QMKファームウェア対応
