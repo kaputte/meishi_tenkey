@@ -1,7 +1,6 @@
 # meishi_tenkey
 
-![表面](images/front.jpg)
-![裏面](images/back.jpg)
+<img src="images/front.jpg" width="400"> <img src="images/back.jpg" width="400">
 
 XIAO RP2040 を使用した 5x4 テンキーキーボード
 
