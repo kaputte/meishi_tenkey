@@ -52,17 +52,9 @@ XIAO RP2040 を使用した 5x4 テンキーキーボード
 
 ## PCB設計環境
 
-PCBを編集する場合の参考情報です。
+PCBを編集する場合は、以下のライブラリが必要です。
 
-### KiCadプラグイン
-
-- [marbastlib](https://github.com/ebastler/marbastlib)
-- [Keyboard footprints placer](https://github.com/adamws/kicad-kbplacer)
-- [Keyswitch Kicad Library](https://github.com/perigoso/keyswitch-kicad-library)
-
-### 外部ライブラリ
-
-- [Xiao_Kicad_Library](https://github.com/Seeed-Studio/Xiao_Kicad_Library) - シンボル / フットプリント
+- [Xiao_Kicad_Library](https://github.com/Seeed-Studio/Xiao_Kicad_Library) - XIAO RP2040 のシンボル / フットプリント
 
 ## ライセンス
 
