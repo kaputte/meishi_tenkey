@@ -6,3 +6,5 @@ fp-info-cache
 
 # Log files
 *.log
+
+case_fusion/
