@@ -12129,7 +12129,7 @@
 		(uuid "2843c074-232b-45f0-99dc-5ad4f32aabef")
 		(at 171.38 48.46 180)
 		(property "Reference" "U1"
-			(at -8.5 12 0)
+			(at -0.07 3.21625 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "ced24320-9b69-4f4c-ae9b-02c4a3fd4a56")
